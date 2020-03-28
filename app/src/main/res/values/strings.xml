@@ -4,4 +4,37 @@
     <string name="title_activity_full_splash">FullSplashActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="title_sintomas">Sintomas</string>
+    <string name="desc_sintomas">¿Sabes cúales son sus sintomas?</string>
+    <string name="title_contacto">Trasmisión</string>
+    <string name="desc_contacto">¿Como se transmite?</string>
+    <string name="title_prevencion">Prevención</string>
+    <string name="desc_prevencion">¿Como se previene?</string>
+    <string name="title_diagnostico">Diagnóstico</string>
+    <string name="desc_diagnostico">¿Como se hace el diagnostico?</string>
+    <string name="title_cura">Cura</string>
+    <string name="desc_cura">¿Existe vacuna, medecina o tratamiento?</string>
+    <string name="title_viajes">Viajes</string>
+    <string name="desc_viaje">Datos para viajeros</string>
+    <string name="title_fakenews">Fake news</string>
+    <string name="desc_fakenews">Información falsa</string>
+
+
+
 </resources>
