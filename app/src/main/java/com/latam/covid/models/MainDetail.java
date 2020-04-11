@@ -6,6 +6,17 @@ public class MainDetail {
     private String name;
     private String detail;
 
+    public MainDetail (String oName, String oDetail, int oImage){
+
+        this.name = oName;
+        this.detail = oDetail;
+        this.imageBigIcon = oImage;
+
+     }
+     public MainDetail(){
+
+     }
+
     public int getImageBigIcon() {
         return imageBigIcon;
     }
@@ -29,6 +40,5 @@ public class MainDetail {
     public void setDetail(String detail) {
         this.detail = detail;
     }
-
 
 }

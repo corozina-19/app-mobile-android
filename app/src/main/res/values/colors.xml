@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#5A86FF</color>
+    <color name="colorPrimary">#5874B8</color>
+
     <color name="colorPrimaryDark">#5A86FF</color>
 <!--    <color name="colorPrimaryDark">#0BBAFB</color>-->
     <color name="colorAccent">#6E9cff</color>
@@ -8,15 +9,23 @@
     <color name="black_overlay">#66000000</color>
 
     <color name="bluePrinary">#0BBAFB</color>
-    <color name="blueSecond">#6E9cff</color>
+    <color name="blueSecond">#6E9CFF</color>
     <color name="blueTree">#9FCEFF</color>
     <color name="bluetrans">#E2F0FF</color>
     <color name="pinkone">#FFA087</color>
     <color name="pinktwo">#FFD5B6</color>
     <color name="graybackground">#E6E6E6</color>
     <color name="grayborder">#E0E0E0</color>
+    <color name="green_whatsapp">#7AD06D</color>
+    <color name="bluePrinary2">#6E9CFF</color>
+    <color name="gray_text_title">#535353</color>
+    <color name="azul_vane">#5874B8</color>
+    <color name="azul_monca">#D0E6FF</color>
+    <color name="other_blue">#AFCFFF</color>
+    <color name="green">#88C528</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_text">#B6B7B7</color>
 
-    <color name="bluePrinary2">#5A86FF</color>
 
 
 </resources>

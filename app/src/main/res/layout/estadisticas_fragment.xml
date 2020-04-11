@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sintomas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.topics.EstadisticasFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/style_background"
+        tools:ignore="MissingConstraints">
+
+
+
+
+       <!-- <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/border_specific"
+            android:layout_marginEnd="@dimen/border_specific"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_big"
+            android:text="@string/alert" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/border_specific"
+            android:layout_marginEnd="@dimen/border_specific"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:fontFamily="@font/segoe_ui"
+            android:textColor="@color/gray_text_title"
+            android:textAlignment="inherit"
+            android:textSize="12dp"
+            android:text="Estamos trabajando para mejorar tu experiencia y poder brindarte un mejor servicio. " />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/office"
+            android:scaleType="centerCrop"/>-->
+        <WebView
+            android:id="@+id/web_estadisticas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

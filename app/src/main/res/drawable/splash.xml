@@ -8,7 +8,7 @@
     <item>
 
         <bitmap
-            android:src="@drawable/templaunch"
+            android:src="@drawable/ic_launcher_background"
             android:gravity="center"/>
 
     </item>

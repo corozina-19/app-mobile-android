@@ -8,7 +8,11 @@
     <dimen name="text_info">14dp</dimen>
     <dimen name="text_big">20dp</dimen>
     <dimen name="margin_image">4dp</dimen>
-    <dimen name="elevation">8dp</dimen>
+    <dimen name="elevation">12dp</dimen>
     <dimen name="natural_margin">16dp</dimen>
+    <dimen name="margin_medium">14dp</dimen>
+    <dimen name="margin_big">24dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
     <dimen name="border_specific">24dp</dimen>
+    <dimen name="margin_info_results">36dp</dimen>
 </resources>

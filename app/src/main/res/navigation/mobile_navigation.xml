@@ -30,6 +30,12 @@
     </fragment>
 
     <fragment
+        android:id="@+id/nav_diag"
+        android:name="com.latam.covid.FirstFragment"
+        android:label="@string/menu_diag"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="com.latam.covid.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"

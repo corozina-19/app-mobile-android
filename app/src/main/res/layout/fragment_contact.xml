@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context=".ContactFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/style_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textview_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="@dimen/margin_big"
+            android:layout_marginEnd="@dimen/margin_big"
+            android:text="@string/title_contact"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_big"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_info_results"
+            android:layout_marginEnd="@dimen/margin_info_results"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/title_solicitud_asiastencia"
+            android:textColor="@color/gray_text"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/style_background"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/natural_margin"
+        android:layout_marginEnd="@dimen/natural_margin"
+        tools:ignore="MissingConstraints">
+
+
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:textSize="16dp"
+                android:textColor="@color/gray_text_title"
+                android:text="@string/title_contact_emergency" />
+
+        <ImageButton
+            android:id="@+id/btn_whatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/style_button_whatsapp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            app:srcCompat="@drawable/ic_whatsapp" />
+
+            <ImageButton
+                android:id="@+id/btn_contaacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/style_button_two"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp"
+                android:elevation="4dp"
+                app:srcCompat="@drawable/ic_local_phone_black_24dp" />
+    </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rcv_contacts"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginStart="@dimen/natural_margin"
+            android:layout_marginEnd="@dimen/natural_margin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="0"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_gravity="right"
+                android:paddingEnd="@dimen/margin_info_results"
+                android:paddingStart="@dimen/margin_info_results"
+                android:layout_margin="24dp"
+                android:text="@string/title_finalizar"
+                android:textAllCaps="false"
+                android:visibility="visible"
+                android:textSize="16dp"
+                android:elevation="@dimen/elevation"
+                android:background="@drawable/style_button"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+<!--    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />-->
+
+</FrameLayout>

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Covid</string>
 
     <string name="title_activity_full_splash">FullSplashActivity</string>
@@ -15,26 +15,128 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_about_ucare">Sobre UCare</string>
+    <string name="menu_diag">Diagnósticate</string>
+    <string name="menu_terminos">Terminos y condiciones</string>
+    <string name="menu_exit">Salir</string>
 
     <string name="home_second">Home Second</string>
     <string name="drawer_open">open</string>
     <string name="drawer_close">close</string>
-
-    <string name="title_sintomas">Sintomas</string>
+    <string name="text_button_next">Continuar</string>
+    <string name="title_sintomas">Síntomas</string>
     <string name="desc_sintomas">¿Sabes cúales son sus sintomas?</string>
-    <string name="title_contacto">Trasmisión</string>
+    <string name="title_contacto">Contagio</string>
     <string name="desc_contacto">¿Como se transmite?</string>
     <string name="title_prevencion">Prevención</string>
     <string name="desc_prevencion">¿Como se previene?</string>
     <string name="title_diagnostico">Diagnóstico</string>
     <string name="desc_diagnostico">¿Como se hace el diagnostico?</string>
-    <string name="title_cura">Cura</string>
+    <string name="title_cura">Estadisticas</string>
     <string name="desc_cura">¿Existe vacuna, medecina o tratamiento?</string>
     <string name="title_viajes">Viajes</string>
     <string name="desc_viaje">Datos para viajeros</string>
-    <string name="title_fakenews">Fake news</string>
+    <string name="title_fakenews">Notas falsas</string>
     <string name="desc_fakenews">Información falsa</string>
+    <string name="title_activity_diag">DiagActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_falta">Falta de aire repentino o brusco</string>
+    <string name="title_fiebre">Fiebre superior a 37,1°C</string>
+    <string name="title_tos">tos seca y persistente</string>
+    <string name="title_contact_covid">Contacto con alguien con COVID</string>
+    <string name="title_mucosidad">Mucosidad en la nariz </string>
+    <string name="title_dolor">Dolor muscular</string>
+    <string name="title_malestar">Dolores o malestares gastrointestinales</string>
+    <string name="title_20_dias">Más de 20 días con síntomas</string>
+
+    <string name="title_que_sientes">¿Que sientes?</string>
+    <string name="title_diagnosticar">Diagnósticar</string>
+    <string name="title_diagnosticar_menu">Diagnósticate</string>
+    <string name="title_finalizar">Finalizar</string>
+
+
+    <string name="title_result">Estos son tus resultados</string>
+    <string name="title_description_result">Parece que tienes sintomas propios del COVID-19</string>
+    <string name="title_description_result_false" tools:ignore="TypographyEllipsis">Tus síntomas indican... un resfriado común</string>
+    <string name="title_description_result_fine">¡Estás muy bien de salud!</string>
+    <string name="title_result1">Pero, ¡hey, no te angusties!</string>
+    <string name="text_detail">Te pondremos en contacto con un profesional de la salud que despejará tus dudas, recibirá los resultados de tu diagnóstico y te preguntará detalles según tu ubicación y contexto para decirte qué hacer en este caso</string>
+    <string name="text_detail_false">En cualquier caso, no te lo tomes a la ligera. Mantén una buena hidratación, lava tus manos regularmente, mantén limpias y desinfectadas las áreas y objetos con los que más tienes contacto, cúbrete con la parte interna del codo al toser o estornudar, usa un tapabocas por día y conserva una distancia prudente con las personas que tengas a tu alrededor.</string>
+    <string name="text_detail_ok">No obstante, no olvides mantener una buena higiene de tus manos y de mantener limpias y desinfectadas las áreas y objetos con los que más tienes contacto. Y en la medida de lo posible, quédate en casa, así prevendrás cualquier contagio.</string>
+    <string name="text_desc_sintomas">El COVID-19 es una enfermedad nueva, los expertos aún están aprendiendo cosas sobre él. Debido a que todos los días hay nueva información, las personas pueden sentirse abrumadas. \n\nLa enfermedad es mortal en raras ocasiones, y hasta ahora las víctimas mortales han sido personas de edad avanzada que ya padecían una enfermedad crónica como diabetes, asma o hipertensión.
+        \n\nEl nuevo Coronavirus causa una Infección Respiratoria Aguda (IRA), es decir una gripa, que puede ser leve, moderada o severa. \n\nSus principales síntomas son:
+        \n\n<font color='#78BD3B'>•</font>	Fiebre
+        \n\n<font color='#78BD3B'>•</font>	Tos
+\n\n<font color='#78BD3B'>•</font>	Secreciones nasales (mocos) y  goteo
+\n\n<font color='#78BD3B'>•</font>	Malestar general y escalofrios
+\n\n<font color='#78BD3B'>•</font>	Algunos pacientes pueden presentar dificultad para respirar (Disnea)
+\n\n<font color='#78BD3B'>•</font>	Dolor de garganta
+\n\n<font color='#78BD3B'>•</font>	Dolor de cabeza.
+ </string>
+    <string name="text_desc_contagio">Se estima que el intervalo de serie del virus de la COVID-19 es de entre 5 y 6 días, mientras que en el caso del virus de la gripe es de 3 días. Esto significa que la gripe puede propagarse más rápidamente que la COVID-19.
+        \n\nLa gente puede contraer el coronavirus a partir de otras personas infectadas por este virus. Esto ocurre cuando una persona infectada estornuda o tose, dispersando pequeñas gotas de agua por el aire. Esas gotitas pueden aterrizar en la nariz, la boca o los ojos de una persona que se encuentra cerca, o ella las puede inspirar.
+        \n\nEs posible que una persona también contraiga la infección al tocar una superficie cubierta de gotas infectadas y luego se toque la nariz, la boca o los ojos.
+        \n\nEl virus se contagia con mayor facilidad cuando una persona infectada presenta síntomas. Pero también es posible contagiar el virus antes de que se empiece a presentar síntomas. Una persona puede tardar de 2 a 14 días en presentar síntoma después contraer el virus.
+    </string>
+    <string name="text_desc_prevencion">
+        La medida más efectiva para prevenir el COVID-19 es lavarse las manos correctamente, con agua y jabón. Hacerlo frecuentemente reduce hasta en 50% el riesgo de contraer coronavirus. De igual manera, se recomiendan otras medidas preventivas cotidianas para ayudar a prevenir la propagación de enfermedades respiratorias, como:
+         \n\n<font color='#78BD3B'>•</font>Evita el contacto cercano con personas enfermas
+        \n\n<font color='#78BD3B'>•</font>Al estornudar, cúbrete con la parte interna del codo
+        \n\n<font color='#78BD3B'>•</font>Si tienes síntomas de resfriado, quédate en casa y usa tapabocas
+        \n\n<font color='#78BD3B'>•</font>Limpiar y desinfectar los objetos y las superficies que se tocan frecuentemente
+        \n\n<font color='#78BD3B'>•</font>Ventila tu casa
+
+    </string>
+
+    <string name="subtitle_desc_prevencion">Recuerda que…</string>
+    <string name="text_desc_prevencion2">Las personas infectadas por el virus que causa el COVID-19 deben guardar cuarentena desde el diagnóstico de la enfermedad hasta 15 días después de ser dadas de alta. Así lo aconseja la OMS porque se ha observado que, aunque ya estén recuperadas, pueden seguir transmitiendo la infección.</string>
+    <string name="alert">Estamos trabajando en ello...</string>
+
+    <string name="term_cond_1"> Gracias elegirnos, los presentes términos y condiciones de “uCare” tienen como objetivo dar a conocer tanto para ti, como para nosotros, las condiciones generales de uso, bajo las cuales “uCare” prestará sus servicios. Te sugerimos leer el documento completamente para que de esta manera te podamos brindar la mejor experiencia.
+   \n\n  Al acceder o utilizar la aplicación “uCare” aceptas y estás de acuerdo en cumplir los términos y condiciones establecidos en los “Términos de Uso”. Estos términos consisten en un acuerdo colaborativo entre tu y la aplicación “uCare”, que abarca todo su acceso y uso, lo que incluye el uso de toda la información, datos, herramientas, servicios y otro contenido disponible mediante la aplicación. Al utilizar esta aplicación, confirmas que comprendes y estás de acuerdo con las siguientes condiciones:
+</string>
+    <string name="term_cond_2">
+        1. RESPETO A LAS LEYES:
+        \n El usuario registrado deberá acceder a la aplicación “uCare” sólo para finalidades lícitas
+y relacionadas a la salud. El usuario está de acuerdo en utilizar la aplicación sólo para los debidos fines y en conformidad con los presentes términos y limitaciones legales, así como con cualquier política aplicable en Colombia. Su acceso está prohibido en territorios donde el contenido sea considerado ilegal. Aquellos que opten por acceder a este sitio desde otros lugares, lo harán a iniciativa propia y serán responsables por el cumplimiento de las leyes locales aplicables. Los materiales no deberán ser usados ni exportados incumpliendo las
+leyes colombianas. Cualquier pendiente con relación a los materiales será resuelto mediante las leyes colombianas. La alteración no autorizada del contenido de este sitio está expresamente prohibida
+        \n 2. RESTRICCIONES DE USO:
+        \n La utilización de la aplicación está permitida solamente para personas mayores de 13 (trece) años.
+        \n 3. RESPONSABILIDAD POR EL CONTENIDO:
+        \n Los desarrolladores de la aplicación “uCare” no son responsables por el contenido de cualquier información sea lícita o ilícita eventualmente intercambiada por los usuarios, mediante redes sociales o para la aplicación “uCare”. Los comentarios compartidos por el usuario mediante redes sociales no representan la opinión de las instituciones involucradas en el proyecto y la responsabilidad es del autor del mensaje. El usuario está de acuerdo en que es el único responsable por su propia conducta y por la veracidad de la información suministrada mientras utilice el servicio y que es responsable por las consecuencias que provengan del suministro intencional de datos incorrectos. El usuario está de acuerdo que al usar la aplicación “uCare” no publicará, enviará, distribuirá ni divulgará contenido o información de carácter difamatorio, obsceno o ilícito, inclusive información de propiedad exclusiva perteneciente a otras personas o empresas, así como marcas registradas o información protegida por derechos de autor, sin la expresa autorización del propietario de esos derechos. Nadie puede actuar a su nombre en el uso de la aplicación “uCare”. El usuario es responsable por el contenido que los individuos no autorizados produzcan al usar esta aplicación utilizando con su permiso, su perfil registrado. Esta regla no se aplica a los casos de violación u otros problemas de seguridad de la aplicación.
+        \n 4. ACCESIBILIDAD AL CONTENIDO:
+        \n El equipo de la aplicación “uCare” no garantiza que esta aplicación sea parcial o completamente funcional para el uso fuera del territorio nacional. Si usted opta por acceder a la aplicación desde otros paises, usted lo hará por su propia iniciativa y su propio riesgo. Usted es responsable por el cumplimiento de las leyes locales y en la medida en que las leyes locales sean aplicables, el usuario está de acuerdo específicamente en cumplir todas las leyes aplicables relativas a la transmisión de datos técnicos exportados a partir de ese lugar.
+        \n 5. PROPIEDAD INTELECTUAL:
+        \n Los desarrolladores son propietarios del derecho de autoría del contenido producido y presentado en esta aplicación. Esta premisa no se aplica a la información considerada como de dominio público o de utilidad pública. Todas las demás marcas comerciales,
+marcas de servicio, nombres y logotipos que aparecen en esta aplicación son de
+propiedad de sus respectivos propietarios.
+La aplicación “uCare” es un software open source cuya utilización por terceros se
+somete a los términos de la licencia internacional http://opensource.org/licenses/gpl-3.0 GNU General Public License, versión 3 (GPL-3.0).
+Los derechos de uso del contenido y de los informes generados por la aplicación son
+cedidos por los desarrolladores, en especial aquellos que provienen de los términos de la licencia http://creativecommons.org/licenses/by-nc/4.0/ Creative Commons - Atribución - No Comercial 4.0 Internacional http://creativecommons.org.br/as-licencas/attachment/by-nc/.
+Sólo la información proporcionada por los servicios de salud debe ser considerada
+oficial para la divulgación pública en lo que tiene que ver con los datos relacionados a este tema. Ninguna de la información proveniente de la aplicación “uCare”, a pesar del esfuerzo del equipo en garantizar la calidad, actualidad y autenticidad de la información, deberá ser considerada oficial para divulgación pública. Los datos recolectados mediante la aplicación “uCare” provienen de usuarios que voluntariamente proporcionaron la información y que
+pueden sufrir influencia por su capacidad de acceso a los dispositivos móviles o computadoras con especificaciones tecnológicas mínimas.
+De esta manera, la información generada a partir de esta estrategia puede ser insuficiente para representar estadísticamente el perfil epidemiológico real del período y lugar de reporte. La información lúdica o de utilidad pública podrá presentar errores o fallas eventuales de actualización, siendo recomendada su validación por los usuarios en casos de urgencia y emergencia o de cualquier otra situación de amenaza a su salud o integridad.
+        \n 6. LEYES, REGLAMENTOS, DERECHOS Y DEBERES:
+        \n Es política del equipo de la aplicación “uCare” cumplir todas las leyes y reglamentos aplicables y vigentes. En caso de que cualquier disposición de los presentes Términos de Uso esté en conflicto con cualquier ley o reglamento aplicable, la ley o reglamento aplicable substituirá a la disposición contraria. Estos Términos de Uso y el uso de la aplicación “uCare” son y serán regidos e interpretados de acuerdo con las leyes internas de Colombia, sin tomar en cuenta sus reglas de conflictos de leyes. En caso de cualquier conflicto entre
+ las leyes, reglas y reglamentos extranjeros y de Colombia, las leyes, reglas y reglamentos de Colombia deberán prevalecer. La aplicación “uCare” podrá, pero no está obligada a monitorear, revisar y restringir el acceso a cualquiera de sus áreas donde los usuarios transmiten información, pudiendo retirar el acceso a cualesquiera de estas informaciones o comunicaciones. Si usted tiene alguna duda con relación a la aplicación “uCare”, no dude en contactarnos mediante el e-mail: ucare.app19@gmail.com
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_contact">Números que te pueden servir de mucha ayuda</string>
+    <string name="title_solicitud_asiastencia">Solicita asistencia medica</string>
+    <string name="title_contact_emergency">Habla con un medico de confianza</string>
+    <string name="text_message_whatsapp">Hola, tengo una consulta...</string>
 
 
 </resources>

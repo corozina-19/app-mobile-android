@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lyn_items_contacts"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/img_info"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/style_curcle_contact"
+        android:layout_marginEnd="8dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_local_phone_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margin_small"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:textColor="@color/gray_text_title"
+            android:text="Amazonas" />
+
+        <TextView
+            android:id="@+id/txt_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1.8"
+            android:textSize="12dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/gray_text_title"
+            android:text="3144556384" />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:textColor="@color/gray_text"
+            android:text="asdfds" />
+
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/gray_text" />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

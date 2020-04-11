@@ -5,9 +5,9 @@
             android:shape="rectangle" tools:ignore="RedundantNamespace">
 
             <solid android:color="@android:color/white" />
-            <corners android:radius="24dp" />
+            <corners android:radius="16dp" />
             <stroke
-                android:width="2dp"
+                android:width="1dp"
                 android:color="@color/grayborder" />
         </shape>
     </item>
