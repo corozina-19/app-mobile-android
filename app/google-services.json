@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "968654348274",
+    "firebase_url": "https://ucare-de4c5.firebaseio.com",
+    "project_id": "ucare-de4c5",
+    "storage_bucket": "ucare-de4c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968654348274:android:3500518a79b92e9d40556b",
+        "android_client_info": {
+          "package_name": "com.latam.covid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968654348274-5k74n6sos5r13p07lv7gppp0heeifh9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP_dBP3EGqKmznjwUE6tsuk5GmpZM7iCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968654348274-5k74n6sos5r13p07lv7gppp0heeifh9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
